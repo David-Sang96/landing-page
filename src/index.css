@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .color {
+    @apply text-green-500;
+  }
+  .text-color {
+    @apply text-slate-500;
+  }
+  .bg-color {
+    @apply bg-green-600 text-white;
+  }
+  .btn {
+    @apply bg-green-500 hover:bg-green-600 duration-200  px-5 py-3 text-white rounded-full outline outline-2 outline-green-200;
+  }
+}
